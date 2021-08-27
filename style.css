@@ -1,0 +1,103 @@
+
+body{
+    background-color:  hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px;
+    
+}
+
+#card{
+    
+    border-radius: 5px;
+    background-color:hsl(244, 38%, 16%);
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin: auto;
+  
+}
+
+.stats h2{
+    color: white;
+}
+
+ #text{
+   padding: 15px;
+   padding-bottom: 0px;
+   flex:1;
+   width: 300px;
+   margin-bottom: 0px;
+}
+
+#text h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    font-style: 'Inter';
+    font-weight: 700;
+}
+
+#text h1 span{
+    color: blueviolet;
+}
+
+#text p{
+    font-size: smaller;
+    margin-bottom: 20px;
+    color: rgb(163, 163, 145);
+}
+
+.stats{
+    line-height: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#stat-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+#stat-heading h2{
+    margin: 0px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+
+#back-img{
+   flex: 1; 
+   line-height: 0%;
+   height: max-content;
+   width: max-content;
+   position: relative;
+   display: flex;
+  
+}
+
+#green-box{
+   flex: 1;
+   position: absolute;
+   float: right;
+   background-color:purple;
+   opacity: 50%;
+   height: 100%;
+   width: 100%
+   
+   
+}
+
+
+
+#back-img img{
+    flex: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    width: max-content; 
+    line-height: 0%;
+    
+ }
